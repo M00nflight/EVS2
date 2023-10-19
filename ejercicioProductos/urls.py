@@ -22,8 +22,10 @@ from certamenApp.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("",index),
+    path("App1/",App1),
     path("juguetes/",juguetes),
     path("electronica/",electronica),
+    path("App2/",App2),
     path("ropa/",ropa),
     path("chile/",chile),
     path("argentina/",argentina),
